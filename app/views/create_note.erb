@@ -1,0 +1,10 @@
+<% if @errors %>
+<%= erb :_errors %>
+<% end %>
+
+<form class="newnote" action="/new_note" method="post">
+  <input type="text" name="note[title]" placeholder="note title">
+  <textarea rows="10" columns="80" name="note[content]" placeholder="note content"></textarea>
+  <input type="submit" value="submit">
+</form>
+

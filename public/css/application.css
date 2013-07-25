@@ -1,0 +1,60 @@
+.container {
+  margin: 20px auto;
+  width: 800px;
+  padding: 0px 20px 40px 20px;
+  border: 1px dotted black;
+  background-color: gray;
+}
+
+th {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  height: 200px;
+  background-color: white;
+  text-align: top;
+  border: 1px solid black;
+}
+
+tr:nth-child(odd) {
+  background-color: red;
+  border: 1px solid black;
+  height: 25px;
+}
+
+table {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.welcome {
+  margin: 30px auto;
+  padding: 30px;
+  border: 1px dotted black;
+  width: 400px;
+  text-align: center;
+  background-color: blue;
+}
+
+.newnote {
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.newnote input {
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.newnote textarea {
+  margin: 30 auto;
+  display: inline;
+  width: 100%;
+}
+
+.update td {
+  display: inline;
+  padding-right: 40px;
+}
+

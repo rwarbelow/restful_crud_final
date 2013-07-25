@@ -1,0 +1,17 @@
+<% if @notes %>
+<div class="note">
+  <table>
+  <% counter = @notes.length %>
+<% @notes.reverse.each do |note| %>
+<tr>
+  <td>Note # <%= counter %>: <%= note.title %></td>
+</tr>
+<tr>
+  <td><%= note.content  %></td>
+</tr>
+
+</div>
+<% counter -= 1 %>
+<% end %>
+</table>
+<% end %>
